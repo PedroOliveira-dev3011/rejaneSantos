@@ -1,0 +1,55 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff0f5; /* rosa claro */
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+    font-size: 18px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #c71585; /* rosa escuro */
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin: 15px 0;
+    text-align: justify;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 20px 0 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Responsividade */
+  @media (max-width: 400px) {
+    body {
+      font-size: 16px;
+      padding: 15px;
+    }
+  
+    h1, h2 {
+      font-size: 20px;
+    }
+  
+    img {
+      width: 85%;
+      max-width: 85%;
+      height: auto;
+    }
+  }
+  
